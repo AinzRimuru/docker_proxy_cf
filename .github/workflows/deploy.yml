@@ -4,7 +4,7 @@
 #   Settings → Secrets and variables → Actions → New repository secret
 #     名称：CLOUDFLARE_API_TOKEN   值：你的 Cloudflare API Token（需 Workers Scripts:Edit + D1:Edit）
 #
-# 触发：push 到 main（仅 src/wrangler/package 变更）或手动 workflow_dispatch。
+# 触发：push 到 deploy 分支（main 为源码分支，不部署）或手动 workflow_dispatch。
 # 说明：Worker secrets（DH_*/PROXY_TOKEN_KEY/ACCESS_KEY）与 D1 绑定持久存在 Cloudflare，
 #       本流程只部署代码，无需在 CI 里重设密钥。
 
