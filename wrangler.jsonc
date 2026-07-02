@@ -9,7 +9,7 @@
     {
       "binding": "DB",
       "database_name": "docker-hub-accounts",
-      "database_id": "4f61b564-17fa-4cea-88e7-87fb08c6de7b"
+      "database_id": "<your-d1-database-id>" // 真实 id 在 deploy 分支（账号相关，不入 main）
     }
   ]
 }
