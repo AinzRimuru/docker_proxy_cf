@@ -12,7 +12,7 @@ name: Deploy Worker
 
 on:
   push:
-    branches: [main]
+    branches: [deploy]
     paths:
       - 'src/**'
       - 'wrangler.jsonc'
