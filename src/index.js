@@ -563,6 +563,8 @@ function infoPage(host) {
   .star svg{fill:#facc15}
   .hint{color:#9aa4bf;font-size:.82rem;margin:.6rem 0 1.4rem}
   .hint a{color:#9cc2ff}
+  .thanks{color:#9aa4bf;font-size:.82rem;margin:1.2rem 0 0}
+  .thanks a{color:#9cc2ff}
   small{color:#6b7493}
 </style>
 </head>
@@ -582,6 +584,7 @@ function infoPage(host) {
   "registry-mirrors": ["https://${host}"]
 }</code></pre>
     <p><small>健康检查：<code>GET /v2/</code> &nbsp;|&nbsp; token：<code>/token</code> &nbsp;|&nbsp; 上游：registry-1.docker.io</small></p>
+    <p class="thanks">特别鸣谢 <a href="https://linux.do" target="_blank" rel="noopener">LINUX DO</a> 社区</p>
   </div>
 </body>
 </html>`;

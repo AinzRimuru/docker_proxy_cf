@@ -163,3 +163,7 @@ docker pull <你的域名>/alpine
 - **匿名限流**：匿名拉取受 Docker Hub 速率限制（100/h），且 Worker 出口 IP 共享，极易 `429`。**已配置账号鉴权即不受此限**（见上文「启用账号鉴权」），客户端也无需 `docker login`。
 - **上游固定为 `registry-1.docker.io`**，仅代理 Docker Hub，不代理其它 registry。
 - blob 改写回源经 Worker 转发，manifest/token 走 Worker；Worker Free 计划每次请求子请求上限（50）对单次 pull 足够。
+
+## 鸣谢
+
+[LINUX DO - 新的理想型社区](https://linux.do)
