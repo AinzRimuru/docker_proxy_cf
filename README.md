@@ -164,6 +164,16 @@ docker pull <你的域名>/alpine
 - **上游固定为 `registry-1.docker.io`**，仅代理 Docker Hub，不代理其它 registry。
 - blob 改写回源经 Worker 转发，manifest/token 走 Worker；Worker Free 计划每次请求子请求上限（50）对单次 pull 足够。
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=AinzRimuru%2FDockerProxyCF&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AinzRimuru/DockerProxyCF&type=date&theme=dark&legend=top-left&sealed_token=-n8FUNYgqNuGOOTrdA9LM_YwIXKzFDZJWurWAG8A00n_cd-u-rpOkAmKJziw0X4llEuPYWwjCfuIgac2ZF0gCDPLk3an5mM3ybDcSZD2RJl2VuBUFrlapmAs5DXuW9RFa6r954vsYJ6jt5WcwOs-EL8hJQi8L23g9h-pgrttRe0mOr0cmLe2CNvJiYY6" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AinzRimuru/DockerProxyCF&type=date&legend=top-left&sealed_token=-n8FUNYgqNuGOOTrdA9LM_YwIXKzFDZJWurWAG8A00n_cd-u-rpOkAmKJziw0X4llEuPYWwjCfuIgac2ZF0gCDPLk3an5mM3ybDcSZD2RJl2VuBUFrlapmAs5DXuW9RFa6r954vsYJ6jt5WcwOs-EL8hJQi8L23g9h-pgrttRe0mOr0cmLe2CNvJiYY6" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AinzRimuru/DockerProxyCF&type=date&legend=top-left&sealed_token=-n8FUNYgqNuGOOTrdA9LM_YwIXKzFDZJWurWAG8A00n_cd-u-rpOkAmKJziw0X4llEuPYWwjCfuIgac2ZF0gCDPLk3an5mM3ybDcSZD2RJl2VuBUFrlapmAs5DXuW9RFa6r954vsYJ6jt5WcwOs-EL8hJQi8L23g9h-pgrttRe0mOr0cmLe2CNvJiYY6" />
+ </picture>
+</a>
+
 ## 鸣谢
 
 [LINUX DO - 新的理想型社区](https://linux.do)
