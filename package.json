@@ -2,6 +2,7 @@
   "name": "docker-hub-proxy",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "description": "Cloudflare Worker — Docker Hub pull-only reverse proxy",
   "type": "module",
   "main": "src/index.js",
